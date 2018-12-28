@@ -1,163 +1,48 @@
-/*内容样式*/
-
-.content{
-    background: #fff;
-    min-width: 320px;
-    padding-bottom: 160px;
+#resource{
+	position:relative;
+	min-height: 400px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #444;
+	text-align: justify;
 }
 
-.content #banner{
-    text-align: center;
-    background: #f3f3f3;
-    overflow: hidden;
+.searchInput{
+	width: 150px;
+	border: 1px solid #04837e;
+	font-size: large;
+	outline: none;
+	border-radius: 3px;
 }
-#banner{
-    width: 100%;
-    margin: 0 auto;
-}
-
-#banner img{
-    width: 100%;
-    height: 150px;
+.searchSubmit:hover{
+	border: 1px solid #fff;
+	border-radius: 3px;
 }
 
-.mainWrap{
-    width: 1000px;
-    margin: auto;
-    min-width: 320px;
+.searchSubmit:hover{
+	background-color:#04837e;
 }
-
-.relative{
-    position: relative;
+.table{
+	margin-top: 20px;
 }
-
-.detailContent{
-    display: table;
+.table tr td{
+	text-align: center;
+	border: 1px;
+	padding: 4px;
 }
-.column_1{
-    width: 200px;
+.firstRow{
+	background-color:#04837e;
 }
-
-.detailContent .column_1,.detailContent .column_2,.detailContent .column_3{
-    float: left;
-    display: inline;
+.firstRow td{
+	color: #fff;
 }
-
-.detailContent .leftNav{
-    border-left: 12px solid #015249;
-    position: relative;
-    top: -34px;
-    left: -12px;
-    width: 100%;
+.trOdd{
+	background-color: #d3d3d3;
 }
-
-.detailContent .leftNav h3{
-    background: #015249;
-    color: #fff;
-    font-size: 22px;
-    line-height: 68px;
-    padding: 0px 22px;
+td img{
+	margin-bottom: 4px;
+	margin-right: 5px;
 }
-
-.detailContent .leftNav ul{
-    border-top: 1px solid #ddd;
-    margin-top: 20px;
-    display: block;
-    width: 100%;
-}
-
-.detailContent .leftNav li{
-    border-bottom: 1px solid #ddd;
-    font-size: 15px;
-    line-height: 22px;
-    position: relative;
-    /* margin-left: 30px;*/
-}
-
-.detailContent .leftNav li a{
-    color: #22132d;
-    display: block;
-    padding: 1em 0 1em 22px;
-    margin-right: 28px;
-}
-
-.detailContent .leftNav li a:hover{
-    color: #4f608c;
-}
-
-.detailContent .leftNav li.current a{
-    position: relative;
-    border-left: 4px solid #04837e;
-    left: -4px;
-    color: #04837e;
-}
-
-.detailContent .column_2{
-    margin: 0 0 0 30px;
-    width: 550px;
-}
-.detailContent .contentNav{
-    padding-top: 20px;
-}
-
-.contentNav{
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 30px;
-}
-.contentNav .nav{
-    color: #04837e;
-    font-family: sans-serif;
-    border-top: 0;
-}
-
-.contentNav .nav a{
-    color: #04837e;
-    font-size: 12px;
-}
-a,a:link{
-    text-decoration: none;
-    color:#04837e;
-}
-
-.detailContent .contentNav h1{
-    line-height: 1em;
-    padding: 0.7em 0 0.7em;
-}
-
-.contentNav h1{
-    font-size: 28px;
-    color: #015249;
-    line-height: 1.25em;
-    padding: 0.4em 0 0.6em 0;
-}
-
-.content .mainContent .article {
-    font-size: 14px;
-    line-height: 24px;
-    color: #444;
-    text-align: justify;
-}
-
-.content .mainContent .article p {
-    padding: 0.75em 0;
-}
-
-.detailContent .column_3 {
-    width: 190px;
-    margin: 160px 0px 0px 30px;
-    background: #f2f2f2;
-    text-align: center;
-}
-
-.detailContent .president {
-    background: #f2f2f2;
-    text-align: center;
-}
-
-.detailContent .president .portrait {
-    width: 100%;
-}
-
-.detailContent .president img {
-    margin:0px 0px 15px 0px;
+.embed{
+	padding-top: 10px;
 }
